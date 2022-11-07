@@ -16,15 +16,18 @@
   padding: 10px 20px;
 }
 
+.contact-section {
+  width: 50% !important;
+  margin: 20px auto;
+}
+
 .store-cont {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
-.form {
-  display: flex;
-  display: flex;
-  flex-direction: column;
+.store-cont article {
+  margin: 20px 0px;
 }
 
 .footer {
@@ -34,6 +37,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer-aboutus {
+  height: 80px;
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 620px) {
+  .contact-section {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 575px) {
+  .store-cont {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
